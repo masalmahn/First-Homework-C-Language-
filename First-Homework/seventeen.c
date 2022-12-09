@@ -8,6 +8,6 @@ int main() {
         sum= sum + 1/n;
         n--;
     }
-    printf("%.3f",sum);
+    printf("The Sum of Your Number Is: %.3f",sum);
     return 0;
 }

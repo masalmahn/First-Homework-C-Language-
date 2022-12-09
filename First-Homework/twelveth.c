@@ -6,9 +6,11 @@ int main() {
     scanf("%d",&low);
     printf("Please Enter The Maximum Number: ");
     scanf("%d",&high);
+    printf("Please Enter The Step Number: ");
+    scanf("%d",&step);
     while (low <= high) {
         printf("%d \n",low);
-        low++;
+        low+=step;
         counter++;
     }
     printf("the Count Of the numbers are: %d",counter);

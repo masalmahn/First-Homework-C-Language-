@@ -12,7 +12,7 @@ int main()
     while(first >= 10) {
         first = first / 10;
     }
-    printf("%d%d%d",last,n,first);
+    printf("The First Digit of your Number is %d and the last digit is %d",first,last);
 
     return 0;
 }
